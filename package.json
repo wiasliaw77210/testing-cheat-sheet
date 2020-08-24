@@ -1,0 +1,29 @@
+{
+  "name": "testing-cheat-sheet",
+  "version": "1.0.0",
+  "description": "A Demo for Javascript Testing Cheat Sheet",
+  "main": "index.js",
+  "scripts": {
+    "test:bdd": "mocha --ui bdd -r ts-node/register 'src/**/*.bdd.test.ts'",
+    "test:tdd": "mocha --ui tdd -r ts-node/register 'src/**/*.tdd.test.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiasliaw77210/testing-cheat-sheet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiasliaw77210/testing-cheat-sheet/issues"
+  },
+  "homepage": "https://github.com/wiasliaw77210/testing-cheat-sheet#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^4.0.2"
+  }
+}
